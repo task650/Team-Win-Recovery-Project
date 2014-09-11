@@ -1498,7 +1498,7 @@ bool MultiROM::extractBootForROM(std::string base)
 
 	// copy needed files
 	static const char *cp_f[] = {
-		"*.rc", "default.prop", "init", "main_init", "fstab.*",
+		"*.rc", "default.prop", "init", "main_init", "fstab.*", "twrp.fstab.*" , "*.sh"
 		// Since Android 4.3 - for SELinux
 		"file_contexts", "property_contexts", "seapp_contexts", "sepolicy",
 		NULL
